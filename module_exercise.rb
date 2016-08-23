@@ -18,13 +18,13 @@
   #     end
   #   end
   # end
-  #
+  # #
   # our_array = Perimeter::Array.new
   # ruby_array = Array.new
-  #
+  # #
   # p our_array.class
   # p ruby_array.class
-  #
+  
   # p our_array.length
 
 
@@ -38,7 +38,7 @@
 #https://github.com/stympy/faker#fakerhacker
 
 # require "faker"
-#
+
 # puts Faker::Hacker.say_something_smart
 # puts Faker::Hacker.adjective
 # puts Faker::Hacker.verb
@@ -50,21 +50,19 @@
 
 ###################################
 ###### TRAVELLER GEM STEP ONE #####
-###################################
-#DOCUMENTATION:
-#https://github.com/kqdreger/traveller
+# x
 
 #Testing out the traveller gem!
 
   # require 'traveller'
-  #
+  
   # trav = Traveller.new("Seattle, Minnesota 98101")
 
   # puts traveller1.city
   # puts traveller1.zip
-  #
+  
   # trav.state = "Washington"
-  #
+  
   # puts traveller1.state
 
 
@@ -82,8 +80,8 @@
   #   end
   # end
 
-  #Tests to use the Traveller Gem (after my class has been created. )
-    # traveller2 = Traveller.new("Chicago 60611 IL")
+  # #Tests to use the Traveller Gem (after my class has been created. )
+  #    traveller2 = Traveller.new("Chicago 60611 IL")
     # puts Traveller.state
 
   #Hmm. It doesn't work. Oh bother.
@@ -110,38 +108,38 @@
 
 
 
-      #   module Blackjack
-      #     MAX_SCORE = 21
-      #     module Player
-      #         MAX_PLAYERS = 2
-      #         class Player
-      #           def initialize
-      #           end
-      #         end
-      #     end
-      #     module Card
-      #         MAX_VALUE = 13
-      #         class Card
-      #           def get_max_value()
-      #               return MAX_VALUE
-      #           end
-      #         end
-      #     end
-      # end
-      #
-      # MAX_SCORE = 50
-      # MAX_PLAYERS = 4
-      # MAX_VALUE = 21
-      #
-      # puts "MAX_SCORE - #{MAX_SCORE}"
-      # puts "Blackjack::MAX_SCORE - #{Blackjack::MAX_SCORE}"
-      #
+        module Blackjack
+          MAX_SCORE = 21
+          module Player
+              MAX_PLAYERS = 2
+              class Player
+                def initialize
+                end
+              end
+          end
+          module Card
+              MAX_VALUE = 13
+              class Card
+                def get_max_value()
+                    return MAX_VALUE
+                end
+              end
+          end
+      end
+      
+      MAX_SCORE = 50
+      MAX_PLAYERS = 4
+      MAX_VALUE = 21
+      
+      #puts "MAX_SCORE - #{MAX_SCORE}"
+      puts "Blackjack::MAX_SCORE - #{Blackjack::MAX_SCORE}"
+      
       # puts
-      #
+      
       # puts "MAX_Players - #{MAX_PLAYERS}"
       # puts "Blackjack::Player::MAX_Players - #{Blackjack::Player::MAX_PLAYERS}"
-      #
+      
       # puts
-      #
+      
       # puts "MAX_VALUE - #{MAX_VALUE}"
       # puts "Blackjack::Card::get_max_value -  #{Blackjack::Card::Card.new().get_max_value()}"`
